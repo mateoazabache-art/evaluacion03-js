@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; max-width: 600px; margin: 20px auto; padding: 0 10px; }
+input, button { padding: 6px; margin: 3px; }
+#estado { font-weight: bold; min-height: 22px; }
+#estado.error { color: red; }
+#resultado { border: 1px solid #ccc; border-radius: 6px; padding: 10px; display: none; }
+table { border-collapse: collapse; margin-top: 10px; }
+td, th { border: 1px solid #999; padding: 4px 10px; }
+pre { background: #f4f4f4; padding: 8px; white-space: pre-wrap; }

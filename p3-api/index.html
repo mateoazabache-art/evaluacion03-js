@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ClimaTec - ViajaPerú</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ClimaTec - ViajaPerú</h1>
+
+  <form id="form-clima">
+    <input id="ciudad" placeholder="Escribe una ciudad (ej: Cusco)">
+    <button id="btn-buscar" type="submit">Buscar</button>
+  </form>
+
+  <p id="estado"></p>
+  <div id="resultado"></div>
+
+  <hr>
+  <h2>Prueba de tiempos (Lima, Cusco, Arequipa)</h2>
+  <button id="btn-tiempos">Medir secuencial vs Promise.all (3 veces)</button>
+  <button id="btn-fallo">Probar con una ciudad inválida</button>
+  <table id="tabla-tiempos"></table>
+  <pre id="salida-fallo"></pre>
+
+  <script src="app.js"></script>
+  <script src="tiempos.js"></script>
+</body>
+</html>

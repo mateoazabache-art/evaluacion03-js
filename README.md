@@ -162,7 +162,7 @@ sequenceDiagram
 - [x] P3: capturas (cargando, éxito, no encontrada, sin conexión)
 - [x] P3: tabla de tiempos con mis mediciones
 - [x] P4: README con badges, tabla de contenidos, diagrama Mermaid y bitácora
-- [ ] P4: repositorio publicado, GitHub Pages activo y mínimo 6 commits
+- [X] P4: repositorio publicado, GitHub Pages activo y mínimo 6 commits
 
 ---
 

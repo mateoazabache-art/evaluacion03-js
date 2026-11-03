@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; max-width: 600px; margin: 20px auto; padding: 0 10px; }
+input, select, button { padding: 6px; margin: 3px; }
+#mensaje { color: red; min-height: 20px; }
+.inseguro { display: block; margin: 8px 0; font-size: 13px; color: #a00; }
+ul { list-style: none; padding: 0; }
+li { border: 1px solid #ccc; border-radius: 6px; padding: 8px; margin: 6px 0; }
+li.entregado { background: #e6f7e6; }
+#total { font-weight: bold; font-size: 18px; }
